@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
+}
+
+section{
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+}
+
+p{
+    position: relative;
+    font-size: 12;
+    letter-spacing: -0.05em;
+    line-height: 8px; /* line-height: 8px; 0.7em */
+    background: url(dilya.jpeg), url(dilya.jpeg);  background: url(dilya.jpeg) no-repeat center; /*url(dilya.jpeg); another option for images: background: url(dilya.jpeg), url(dilya.jpeg);  background: url(dilya.jpeg) no-repeat center;*/
+    background-blend-mode: color-dodge;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-background-size: cover;
+    color: transparent;
+    text-align: center;
+}
